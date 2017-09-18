@@ -1,21 +1,44 @@
 #!/Library/Frameworks/Python.framework/Versions/3.6/bin
 
 import sys
+import json
 
 assert sys.version_info >= (3,4), 'This script requires at least Python 3.4'
 
-def decode_response(user_input):
-	return user_input
+with open('gulag.json') as json_data:
+	world = json.load(json_data)
 
+def get_response(response):
+	try :
+		return int(response)-1
+	except ValueError:
+		return -1
 
-exit_game = False
+def print_response(count,responses):
+	return str(count + 1)
 
+def check_quit(response):
+	response = str(response)
+	if response.lower() == 'q' or response.lower == 'quit':
+		return True
+	return False
 
-while not exit_game:
-	print('It was a dark and stormy night…')
-	print("[1] Interrupt Snoopy's writing session")
-	print('[2] Ask Mrs. Who what a tesseract means')
-	print('[3] Research the life of Edward Bulwer-Lytton')
-	user_input = decode_response(input('What do you choose (q to quit)? '))
-	if user_input == 'q':
-		exit_game = True
+location = 'gulag_intro'
+
+game_is_running = True
+while game_is_running:
+	current = world[location]
+	print(current['description'])
+	if len(current['options']) == 0:
+		continue
+	for count,option in enumerate(current['options']):
+		print('[' + print_response(count,current['options']) + '] ' + option['option'])
+	print('[q] to quit')
+	response = input('What do you do?')
+	if check_quit(response):
+		game_is_running = False
+		continue
+	response = get_response(response)
+	for count,option in enumerate(current['options']):
+		if (response == count):
+			location = option['goto']
