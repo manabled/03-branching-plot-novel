@@ -1,7 +1,7 @@
 {
   "gulag_intro": {
-    "description": "The violent rainfall pummels the ground as the sky strobes erratically. A piercing alarm rattles you from your slumber and you pry your sunken face from the filthy concrete floor. The alarm that signals a security breach sounds like an ominous air raid warning. You clamber around and stumble onto your feet. Your stomach growls in throbbing pain."
-    "options": [
+    "description": "The violent rainfall pummels the ground as the sky strobes erratically. \n A piercing alarmrattles you from your slumber and you pry your sunken face from the filthy \n concrete floor. The alarm that signals a security breach sounds like an ominous air raid \n warning. You clamber around and stumble onto your feet. Your stomach growls in throbbing pain."
+    ,"options": [
       {
         "option": "Run to slop-house to steal food rations",
         "goto": "steal_food"
@@ -17,7 +17,7 @@
     ]
   },
   "steal_food": {
-    "description": "You skirt through the dark, hugging the walls of the buildings. You make it to the slop-house, undetected amidst the chaos. The doors are broken-in and the food supply seems to have already been pillaged. The blood-curling snarl of dogs and sharp whistles from guards sound from around the corner",
+    "description": "You skirt through the dark, hugging the walls of the buildings. You make it to the slop-house, \n undetected amidst the chaos. The doors are broken-in and the food supply seems to have already \n been pillaged. The blood-curling snarl of dogs and sharp whistles from guards sound from around \n the corner",
     "options": [
       {
         "option": "Hide in food shed",
@@ -30,11 +30,11 @@
     ]
   },
   "escape_route": {
-    "description": "You find a breach in the fence, away from the foot traffic. You make a run for it. As you approach the exit, you turn to your left and look down the bayonet of an incoming guard. You stand frozen and defenseless as the bayonette plunges through your neck.",
+    "description": "You find a breach in the fence, away from the foot traffic. You make a run for it. As you approach the exit, you turn \n to your left and look down the bayonet of an incoming guard. You stand frozen and defenseless as the bayonette \n plunges through your neck.",
     "options": []
   },
    "stay_put": {
-    "description": "You remain in your quarters. After some time, a small group of prisoners approach you. They plan to escape the camp and offer you to join them.",
+    "description": "You remain in your quarters. After some time, a small group of prisoners approach you. They plan to escape the camp and offer you to \n join them.",
     "options": [
       {
         "option": "Join prisoners",
@@ -47,7 +47,7 @@
     ]
   },
    "hide_shed": {
-    "description": "You cram yourself in a nook under a shelf. The frequent lightning illuminates a pack of dogs followed by 3 guards as they sprint past the door. You detect a small crate of rations by your feet and take what you can. Revitalized you slip out of the shed. You come across a guard, face down in the mud with a makeshift shiv protruding from his neck.",
+    "description": "You cram yourself in a nook under a shelf. The frequent lightning illuminates a pack of dogs followed by 3 guards as they sprint past the \n door. You detect a small crate of rations by your feet and take what you can. Revitalized you slip out of the shed. You come across a guard, face down in \n the mud with a makeshift shiv protruding from his neck.",
     "options": [
       {
         "option": "Search guard",
@@ -60,7 +60,7 @@
     ]
   },
    "run_away": {
-    "description": "You bolt from the shed into the disorienting chaos. A whistle pierces through the noise and a bullet flies through your left shoulder. You collapse to the ground like a ragdoll, writhing in agony. Within seconds a pack of ravenous dogs cose in on you and rip the flesh from your bones like a flock of vultures.",
+    "description": "You bolt from the shed into the disorienting chaos. A whistle pierces through the noise and a bullet flies through your left shoulder. You collapse to the ground like a ragdoll, \n writhing in agony. Within seconds a pack of ravenous dogs cose in on you and rip the flesh from your bones like a flock of vultures.",
     "options": []
   },
    "search_guard": {
@@ -77,19 +77,19 @@
     ]
   },
    "search_guard_cont": {
-    "description": "You find a key to the armory in the gaurds pocket. As you, haunched over the dead guard, etract the key, your vision splits and the rain, thunder, gunshots, alarms and screaming blend into a loud, high-pitched whine. You slump over the dead guard, dazed. A steel-toe boot strikes you in the side, shattering your ribcage. Blood streams from your hairline, dripping off the tip of your nose as your senses completely fail.",
+    "description": "You find a key to the armory in the gaurds pocket. As you, haunched over the dead guard, etract the key, your vision splits and the rain, thunder, \n gunshots, alarms and screaming blend into a loud, high-pitched whine. You slump over the dead guard, dazed. A steel-toe boot strikes you in the side, \n shattering your ribcage. Blood streams from your hairline, dripping off the tip of your nose as your senses completely fail.",
     "options": []
   },
    "escape_route2": {
-    "description": "You find a breach in the fence, away from the foot traffic. You make a run for it. As you appraoach the exit, you turn to your left and look down the bayonet of an incoming guard about 15 meters away. You whip around and fire your pistol toward him. To your relief, the guards body jerks to the right and falls lifelessly to the ground. You duck through the exit into free territory, with enough ammunition and food to make it to the nearest town.",
+    "description": "You find a breach in the fence, away from the foot traffic. You make a run for it. As you appraoach the exit, you turn to your \n left and look down the bayonet of an incoming guard about 15 meters away. You whip around and fire your pistol toward him. To your relief, the guards \n body jerks to the right and falls lifelessly to the ground. You duck through the exit into free territory, with enough ammunition and food to make \n it to the nearest town.",
     "options": []
   },
    "join_prisoners": {
-    "description": "You agree to join the prisoners. Your group exits the quarters and searches for an exit. You do not go unnoticed, however. Your group catches the attention of a firing squad. Bullets spray toward you and within seconds you and your new companions are reduced to a pile of bodies.",
+    "description": "You agree to join the prisoners. Your group exits the quarters and searches for an exit. You do not go unnoticed, however. Your group \n catches the attention of a firing squad. Bullets spray toward you and within seconds you and your new companions are reduced to a pile of bodies.",
     "options": []
   },
    "stay_put_cont": {
-    "description": "The prisoners depart without you. Within a few minutes a guard enters your quarters. Due to your compliance he spares you and cuffs you to the wall. You live to see another day, still a prisoner.",
+    "description": "The prisoners depart without you. Within a few minutes a guard enters your quarters. Due to your compliance he spares you and cuffs you to the wall. \n You live to see another day, still a prisoner.",
     "options": []
   }
 }
